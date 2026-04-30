@@ -1,0 +1,10 @@
+flask
+groq
+requests
+beautifulsoup4
+soccerdata
+pandas
+numpy
+scipy
+pytrends
+elevenlabs

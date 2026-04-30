@@ -1,0 +1,37 @@
+{
+  "documentary": {
+    "acts": 5,
+    "clips_per_act": 6,
+    "graphics_per_act": 6,
+    "complexity_score": 1.0,
+    "description": "Full 5-act biography or thematic documentary. Deep narrative, high clip + graphic density."
+  },
+  "explainer": {
+    "acts": 3,
+    "clips_per_act": 3,
+    "graphics_per_act": 5,
+    "complexity_score": 0.6,
+    "description": "3-act explainer. Graphics-heavy, fewer clips. Prioritises clarity over depth."
+  },
+  "story": {
+    "acts": 5,
+    "clips_per_act": 5,
+    "graphics_per_act": 4,
+    "complexity_score": 0.8,
+    "description": "Narrative-led story. Clip-forward, fewer data graphics than documentary."
+  },
+  "breakdown": {
+    "acts": 4,
+    "clips_per_act": 4,
+    "graphics_per_act": 7,
+    "complexity_score": 0.85,
+    "description": "Tactical or analytical breakdown. Graphics-dominant, clip density moderate."
+  },
+  "news-style": {
+    "acts": 3,
+    "clips_per_act": 2,
+    "graphics_per_act": 3,
+    "complexity_score": 0.4,
+    "description": "Short-form news format. Low scene count, fast pace, minimal graphics."
+  }
+}

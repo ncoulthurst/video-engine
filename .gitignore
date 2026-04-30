@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+.env
+*.egg-info/
+.pytest_cache/
+
+# Node (if a Remotion sibling is ever vendored alongside)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / tooling
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+
+# Project outputs
+output/
+transcripts/
+temp/
+*.mp4
+*.mov
+*.mp3
+*.wav
+
+# Logs
+*.log
+nohup.out
+/tmp/pipeline.log

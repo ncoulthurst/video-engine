@@ -1,0 +1,100 @@
+{
+  "_comment": "Channel motion identity — referenced by _validate_visual_identity() in graphics_agent.py. Lists all approved Remotion composition IDs and defines animation timing defaults.",
+
+  "channel": "the 90th",
+  "accent_color": "#C9A84C",
+  "background_dark": "#0d0d0d",
+  "background_paper": "#f4f0e8",
+
+  "animation": {
+    "default_easing": "spring",
+    "spring_config": { "stiffness": 100, "damping": 22, "mass": 1 },
+    "stagger_per_item_frames": 4,
+    "reveal_delay_frames": 8,
+    "hold_before_exit_frames": 12
+  },
+
+  "typography": {
+    "heading_font": "Playfair Display",
+    "body_font": "Inter",
+    "mono_font": "JetBrains Mono",
+    "max_heading_size": 96,
+    "min_body_size": 18
+  },
+
+  "compositions": [
+    "HeroIntro",
+    "HeroStatBars",
+    "HeroFormRun",
+    "HeroTactical",
+    "HeroBigStat",
+    "HeroLeagueGraph",
+    "HeroTransferRecord",
+    "HeroQuote",
+    "HeroChapterWord",
+    "HeroClipCompare",
+    "HeroScatterPlot",
+    "HeroTransferProfit",
+    "HeroPhotoReel",
+    "HeroContactSheet",
+    "HeroPlayerRevealTrio",
+    "HeroGoalRush",
+    "HeroHeadlineStack",
+    "HeroShotMap",
+    "HeroMatchTimeline",
+    "HeroAwardsList",
+    "HeroComparisonRadar",
+    "HeroDualPanel",
+    "HeroNewsFeed",
+    "HeroSeasonTimeline",
+    "PlayerTrio",
+    "CareerTimeline",
+    "PremierLeagueTable",
+    "TopScorersTable",
+    "PlayerStats",
+    "MatchResult",
+    "SeasonComparison",
+    "TeamLineup",
+    "AttackingRadar",
+    "DisciplinaryRecord",
+    "QuoteCard",
+    "ArticleHeadline",
+    "AnimatedFactCard",
+    "SplitComparison",
+    "TimelineScroll",
+    "StatPulse",
+    "MatchMoment",
+    "TransferProfit",
+    "ScoutReport",
+    "ValueCurve"
+  ],
+
+  "_deprecated": [
+    "TrioFeature",
+    "TrophyGraphic",
+    "MapCallout",
+    "TitleCard",
+    "AnnotatedImage",
+    "CountdownReveal"
+  ],
+
+  "transitions": {
+    "push":      { "default_direction": "right", "duration_frames": 21 },
+    "flash":     { "duration_frames": 9 },
+    "letterbox": { "duration_frames": 30 },
+    "paper":     { "duration_frames": 27 },
+    "dataLine":  { "duration_frames": 27 },
+    "grain":     { "duration_frames": 12 },
+    "worldPan":  { "default_direction": "right", "duration_frames": 21 },
+    "evolve":    { "duration_frames": 51 }
+  },
+
+  "act_transition_defaults": {
+    "0": "letterbox",
+    "1": "push",
+    "2": "push",
+    "3": "grain",
+    "4": "paper",
+    "5": "paper"
+  }
+}
