@@ -192,7 +192,7 @@ Set the path in `.env`:
 REMOTION_PROJECT_PATH=/absolute/path/to/your/remotion/project
 ```
 Remotion Repo can be found here
-[https:](https://github.com/ncoulthurst/video-engine-remotion)
+(https://github.com/ncoulthurst/video-engine-remotion)
 
 ### 5. Run the server
 
