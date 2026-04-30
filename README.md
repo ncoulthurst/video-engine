@@ -2,19 +2,15 @@
 
 > Type a video title. Get a broadcast-quality football documentary.
 
-[REPLACE: hero screenshot or animated GIF of the pipeline running end-to-end]
 
 ## What it does
 
-The Documentary Engine takes a single line — `"Luis Suárez: The Complete Story"` — and produces a fully-structured football documentary package: a five-act narrative script, animated infographic graphics rendered through a Remotion (React) project, ElevenLabs voiceover, a sourcing sheet of every match clip the editor needs to find, and a timeline UI for assembling the final cut.
+The  Engine takes a single line — `"Why Brazil stopped producing playmakers"` — and produces a fully-structured documentary package: a five-act narrative script, animated infographic graphics rendered through a Remotion (React) project, ElevenLabs voiceover, a sourcing sheet of every match clip the editor needs to find, and a timeline UI for assembling the final cut.
 
 It is a personal R&D project that wires together a chain of specialised LLM agents — research, scripting, storyboarding, narration, graphics, production — behind a Flask web UI. Each stage is editable: you can adjust the director's brief, tick which moments to include, reorder scenes, re-render single graphics with prop tweaks, splice clips on a Premiere-style timeline, and export a final video.
 
 The two halves are decoupled by design. Python decides **what** to make. Remotion (a separate project) decides **how it looks**.
 
-## Demo
-
-[REPLACE: YouTube/Loom link to a recorded walkthrough]
 
 ## Pipeline flow
 
@@ -218,4 +214,4 @@ Released as MIT so others can lift pieces, study the agent chain, or fork and re
 
 ## Author
 
-Nathan Coulthurst — [REPLACE: portfolio URL]
+Nathan Coulthurst — https://nathancoulthurst.co.uk
